@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<script>
+$(document).ready(function(){
+  $("#abc").click(function(){
+    $("#pqr").toggle();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#pqr").click(function(){
+    $("#xyz").toggle();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#xyz").click(function(){
+    $("#uvw").toggle();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#uvw").click(function(){
+    $("#san").toggle();
+  });
+});
+</script>
+<body>
+	<br>
+<div class="container-fluid">
+	<div class="row">
+			<div id="abc" style="border: 1px solid;" class="col-sm-3">
+				<ul style="height: 410px;"><li>Agricultural & Fishing Machinery</li></ul>
+			 </div>
+			<div class="col-sm-3"style="border: 1px solid;"> 
+			
+				<ul id="pqr" style="display: none;"><li>Agricultural, Forestry and Landscaping Equipment
+Fishing & Aquaculture Equipment</li></ul>	
+				
+			</div>	
+			<div class="col-sm-3"style="border: 1px solid;"> 
+				
+				<ul id="xyz"style="display: none;">
+					<li>Agricultural machinery for cleaning and sorting and grading</li>
+					<li>Agricultural machinery for harvesting</li>
+					<li>Agricultural machinery for planting and seeding</li>
+					<li>Agricultural machinery for soil preparation</li>
+					<li>Agricultural processing machinery and equipment</li>
+					<li>Dispersing and spraying appliances for agriculture</li>
+					<li>Forestry machinery and equipment</li>
+					<li>Greenhouse equipment</li>
+					<li>Insect equipment</li>
+					<li>Poultry and livestock equipment</li>
+				</ul>
+				
+			</div>
+			<div class="col-sm-3">
+			<div class="row">
+				<div class="col-sm-6" style="border: 1px solid;">
+				<ul id="uvw"style="display: none;">
+						<li>Agricultural machinery for harvesting Combine harvesters       </li>
+						<li>Crop dividers</li>
+						<li>Harvester parts or accessories</li>
+						<li>Harvesters</li>
+						<li>Haymaking machinery</li>
+						<li>Mower parts or accessories</li>
+						<li>Mowers</li>
+						<li>Threshing machines</li>
+				</ul>
+				</div>
+
+				<div class="col-sm-6"style="border: 1px solid;">
+					<ul id="san"style="display: none;">
+						<li>Agricultural machinery for cleaning and sorting and grading</li>
+						<li>Cleaning machines for seed or grain or dried leguminous vegetables</li>
+						<li>Grading machines for seed or grain or dried leguminous vegetables</li>
+						<li>Grinding mills</li>
+						<li>Hammer mills</li>
+						<li>Rice cleaning or hulling equipment</li>
+						<li>Sorting machines for seed or grain or dried leguminous vegetables</li>
+					</ul>
+				</div>
+			</div>
+			</div> 
+		</div>
+
+</div>
+
+</body>
+</html>
